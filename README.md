@@ -20,7 +20,7 @@ To run the ML model, you need to prepare several essential files in advance. Bel
 ##  **1. Feature Extraction**
 The feature extraction process can be done using the **`feature_extraction.ipynb`** notebook located in the `feature_extraction` directory.  
 
-### 🛠 **How to run feature extraction:**
+###  **How to run feature extraction:**
 1. **Prepare the MOF .cif files**:  
    - Make sure you have a directory containing all the **.cif files** you want to extract features from.  
 
