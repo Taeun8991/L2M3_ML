@@ -1,6 +1,6 @@
 # **How to Run the ML Model**
 
-## 📂 **0. Prerequisites**
+##  **0. Prerequisites**
 To run the ML model, you need to prepare several essential files in advance. Below is a list of required files and their descriptions:
 
 1. **Metal Feature File**:  
@@ -17,10 +17,10 @@ To run the ML model, you need to prepare several essential files in advance. Bel
 
 ---
 
-## 📊 **1. Feature Extraction**
+##  **1. Feature Extraction**
 The feature extraction process can be done using the **`feature_extraction.ipynb`** notebook located in the `feature_extraction` directory.  
 
-### 🛠️ **How to run feature extraction:**
+### 🛠 **How to run feature extraction:**
 1. **Prepare the MOF .cif files**:  
    - Make sure you have a directory containing all the **.cif files** you want to extract features from.  
 
@@ -29,16 +29,16 @@ The feature extraction process can be done using the **`feature_extraction.ipynb
    - Specify the path to the directory containing the **.cif files**.  
    - Run the notebook to extract features.  
 
-### 📦 **Outputs:**
+###  **Outputs:**
 - **X vector list**: A list containing the extracted features for each MOF.  
 - **Refcode list**: A list of reference codes corresponding to each row of the X vector.  
 
 ---
 
-## 🤖 **2. Running the ML Model**
+##  **2. Running the ML Model**
 Once you have extracted the necessary features, you can proceed with running the machine learning model.
 
-### 🛠️ **Steps to run the ML model:**
+###  **Steps to run the ML model:**
 1. **Create the Y vector**:  
    - Use the **Refcode list** obtained from the feature extraction process to match the corresponding target property values from the **Target Property File**.  
    - This process will generate the **Y vector**, which contains the target property values for each MOF.  
